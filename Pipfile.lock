@@ -1,12 +1,12 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "c4cf727955f2dbedb5d96df5ba01811542247c107509b3754d93960ebf5b9237"
+            "sha256": "f12dfdd2a26c22e8e9e88c13eca4ecbd2e6447cbeb86139660b689c8f0c27734"
         },
         "pipfile-spec": 6,
         "requires": {
-            "python_full_version": "3.11.0",
-            "python_version": "3.11"
+            "python_full_version": "3.10.0",
+            "python_version": "3.10"
         },
         "sources": [
             {
@@ -147,7 +147,7 @@
                 "sha256:2163e1640ddb52b7a8c80d0a67a08587e5d245cc9c553a74a847056bc2976b15",
                 "sha256:8ca1e4fcf50d07413d66d1a5e416e42cfdf5851c981d679a09851a6853383b3c"
             ],
-            "markers": "python_version < '3.11'",
+            "markers": "python_version >= '3.6'",
             "version": "==4.0.2"
         },
         "attrs": {
@@ -469,11 +469,11 @@
         },
         "fastapi": {
             "hashes": [
-                "sha256:9569f0a381f8a457ec479d90fa01005cfddaae07546eb1f3fa035bc4797ae7d5",
-                "sha256:a870d443e5405982e1667dfe372663abf10754f246866056336d7f01c21dab07"
+                "sha256:4d9d3e8c71c73f11874bcf5e33626258d143252e329a01002f767306c64fb982",
+                "sha256:d374dbc4ef2ad9b803899bd3360d34c534adc574546e25314ab72c0c4411749f"
             ],
             "index": "pypi",
-            "version": "==0.95.1"
+            "version": "==0.95.2"
         },
         "frozenlist": {
             "hashes": [
@@ -1699,11 +1699,11 @@
         },
         "starlette": {
             "hashes": [
-                "sha256:41da799057ea8620e4667a3e69a5b1923ebd32b1819c8fa75634bbe8d8bea9bd",
-                "sha256:e87fce5d7cbdde34b76f0ac69013fd9d190d581d80681493016666e6f96c6d5e"
+                "sha256:6a6b0d042acb8d469a01eba54e9cda6cbd24ac602c4cd016723117d6a7e73b75",
+                "sha256:918416370e846586541235ccd38a474c08b80443ed31c578a418e2209b3eef91"
             ],
             "markers": "python_version >= '3.7'",
-            "version": "==0.26.1"
+            "version": "==0.27.0"
         },
         "streamlit": {
             "hashes": [
@@ -1771,14 +1771,6 @@
             ],
             "markers": "python_version >= '2.6' and python_version not in '3.0, 3.1, 3.2, 3.3'",
             "version": "==0.10.2"
-        },
-        "tomli": {
-            "hashes": [
-                "sha256:939de3e7a6161af0c887ef91b7d41a53e7c5a1ca976325f429cb46ea9bc30ecc",
-                "sha256:de526c12914f0c550d15924c62d72abc48d6fe7364aa87328337a31007fe8a4f"
-            ],
-            "markers": "python_version < '3.11'",
-            "version": "==2.0.1"
         },
         "toolz": {
             "hashes": [

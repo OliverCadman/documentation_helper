@@ -18,7 +18,7 @@ pinecone.init(
 )
 
 
-def run(query: str) -> Any:
+def run_llm(query: str) -> Any:
     embeddings = OpenAIEmbeddings()
     docsearch = Pinecone.from_existing_index(index_name=INDEX_NAME, embedding=embeddings)
 
@@ -28,4 +28,3 @@ def run(query: str) -> Any:
 
     return qa({"query": query})
 
-print(run("What is langchain?"))
