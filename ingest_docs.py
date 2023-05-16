@@ -2,6 +2,7 @@ from langchain.document_loaders import ReadTheDocsLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.embeddings import OpenAIEmbeddings
 from langchain.vectorstores import Pinecone
+from constants import INDEX_NAME
 import pinecone
 
 import os
@@ -32,7 +33,7 @@ def ingest_docs():
     print(f"Going to insert {len(documents)} chunks into Pinecone.")
 
     embeddings = OpenAIEmbeddings()
-    Pinecone.from_documents(documents=documents, embedding=embeddings, index_name="langchain-docs-db")
+    Pinecone.from_documents(documents=documents, embedding=embeddings, index_name=INDEX_NAME)
 
 
 if __name__ == "__main__":
